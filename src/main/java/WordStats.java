@@ -125,7 +125,9 @@ public class WordStats {
                     .replace(",", "")
                     .replace("?", "")
                     .replace("!", "")
-                    .replace(".", "");
+                    .replace(".", "")
+                    .replace(":", "")
+            ;
 
             messages.add(formattedStr);
 
